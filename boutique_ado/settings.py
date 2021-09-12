@@ -80,6 +80,10 @@ TEMPLATES = [
     },
 ]
 
+# for toast - for gitpod part of recording
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+
 # Installed from Allauth documentation
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
